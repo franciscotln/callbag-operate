@@ -1,0 +1,27 @@
+{
+  "author": "Francisco Tavares de Lima Neto",
+  "description": "Utility function for plugging callbag operators",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~4.9.0",
+    "callbag-filter": "~1.0.1",
+    "callbag-for-each": "~1.0.1",
+    "callbag-from-iter": "~1.0.0",
+    "callbag-map": "~1.0.1",
+    "callbag-pipe": "~1.1.1"
+  },
+  "keywords": [
+    "callbag"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "callbag-operate",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franciscotln/callbag-operate.git"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "version": "1.0.0"
+}
